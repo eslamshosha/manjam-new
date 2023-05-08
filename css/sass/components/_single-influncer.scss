@@ -72,7 +72,7 @@
   gap: 30px;
 }
 .product-section {
-  margin-top: 80px;
+  padding-top: 80px;
 }
 @include max-991 {
   .single-influncer {
@@ -82,7 +82,7 @@
     grid-template-columns: 1fr;
     gap: 30px;
   }
-  .influncer-figure{
+  .influncer-figure {
     text-align: center;
   }
   .courses-cont {
