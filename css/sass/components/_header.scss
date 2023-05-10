@@ -14,6 +14,7 @@ header {
 .show-icons {
   display: flex;
   align-items: center;
+  display: none;
   .menu-bars {
     display: none;
     background: transparent;
@@ -188,6 +189,9 @@ header {
     height: 35px;
     font-size: 14px;
     margin: 0;
+  }
+  .show-icons{
+    display: block;
   }
   .show-icons .menu-bars {
     position: relative;

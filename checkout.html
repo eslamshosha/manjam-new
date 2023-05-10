@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>manjam</title>
+    <link rel="icon" href="images/fav.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.3.4/css/bootstrap-rtl.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.3.3/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body class="single-page">
+    <div class="preloader">
+      <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+    </div>
+    <!-- header section -->
+    <header class="header">
+      <div class="top-header">
+        <div class="container">
+          <div class="nav-header">
+            <div class="logo-name">
+              <a href="#"> ندى العُمري </a>
+            </div>
+            <div class="navgition">
+              <div class="nav-head"></div>
+              <ul class="big-menu list-unstyled">
+                <li>
+                  <a href="#" role="button"> الرئيسية</a>
+                </li>
+                <li>
+                  <a href="influncer.html#courses" role="button"> آخر الدورات</a>
+                </li>
+                <li>
+                  <a href="product.html" role="button"> المنتجات الرقمية </a>
+                </li>
+                <li>
+                  <a href="#"> English</a>
+                </li>
+              </ul>
+            </div>
+            <div class="show-icons">
+              <button class="menu-bars fixall" id="menu-id">
+                <span class="hamburger-lines">
+                  <span class="line line1"></span>
+                  <span class="line line2"></span>
+                  <span class="line line3"></span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header section     -->
+
+    <!-- Start Checkout -->
+    <section class="checkout-page">
+      <div class="container">
+        <div class="checkout-cont">
+          <h2 class="checkout-title">انهاء طلب</h2>
+          <div class="checkout-grid">
+            <div class="form-half">
+              <h4 class="form-title">اضف البيانات التالية</h4>
+              <div class="checkout-form-grid">
+                <div class="checkout-form-group">
+                  <input
+                    type="text"
+                    class="checkout-input"
+                    placeholder="الاسم بالكامل"
+                  />
+                </div>
+                <div class="checkout-form-group">
+                  <input
+                    type="email"
+                    class="checkout-input"
+                    placeholder="البريد الإلكتروني"
+                  />
+                </div>
+                <div class="checkout-form-group">
+                  <input
+                    type="tel"
+                    class="checkout-input"
+                    placeholder="رقم الجوال"
+                  />
+                  <span class="valid">
+                    <i class="las la-check-circle"></i>
+                  </span>
+                </div>
+              </div>
+              <h4 class="form-title">كوبون خصم</h4>
+              <div class="checkout-form-grid">
+                <div class="checkout-form-group">
+                  <input
+                    id="couponCode"
+                    type="text"
+                    class="checkout-input"
+                    placeholder="ادخل الكود"
+                    name="coupon_code"
+                    value=""
+                  />
+
+                  <div class="invalid-feedback d-block"></div>
+                </div>
+                <button
+                  class="apply-coupon-btn checkout-btn manjam-btn m-0"
+                  style="width: 100px; height: 45px; font-size: 14px"
+                >
+                  تطبيق
+                </button>
+              </div>
+              <h4 class="form-title">حدد طريقة الدفع المناسبة</h4>
+              <div class="payment-radios">
+                <div class="payment-radio">
+                  <label>
+                    <input type="radio" name="payment" />
+                    <div class="payment-img">
+                      <img src="images/payment/01.png" class="img-fluid" />
+                    </div>
+                  </label>
+                </div>
+                <div class="payment-radio">
+                  <label>
+                    <input type="radio" name="payment" />
+                    <div class="payment-img">
+                      <img src="images/payment/02.png" class="img-fluid" />
+                    </div>
+                  </label>
+                </div>
+                <div class="payment-radio">
+                  <label>
+                    <input type="radio" name="payment" />
+                    <div class="payment-img">
+                      <img src="images/payment/03.png" class="img-fluid" />
+                    </div>
+                  </label>
+                </div>
+                <div class="payment-radio">
+                  <label>
+                    <input type="radio" name="payment" />
+                    <div class="payment-img">
+                      <img src="images/payment/04.png" class="img-fluid" />
+                    </div>
+                  </label>
+                </div>
+                <div class="payment-radio">
+                  <label>
+                    <input type="radio" name="payment" />
+                    <div class="payment-img">
+                      <img src="images/payment/05.png" class="img-fluid" />
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="details-half">
+              <div class="session-details">
+                <div class="coach-img">
+                  <div class="coach-img-aspect">
+                    <div class="img-here">
+                      <img src="images/coach.jpg" class="img-fluid" />
+                    </div>
+                  </div>
+                </div>
+                <div class="sesion-info">
+                  <h3 class="session-name">
+                    كيفية جمع بيانات العملاء وتحليلها لزيادة المبيعات (تطبيق
+                    عملي على بيانات مشروع متجر)
+                  </h3>
+                  <ul class="session-feats list-unstyled">
+                    <li>تاريخ البداية: <span>01-09-2022</span></li>
+                    <li>عدد الجلسات: <span>10</span></li>
+                    <li>عرض الجلسة: <span class="en">ZOOM</span></li>
+                  </ul>
+                  <div
+                    class="d-flex justify-content-between align-items-baseline"
+                    id="totalPriceContainer"
+                  >
+                    <p>الاجمالي</p>
+                    <strong class="session-price">
+                      <span id="totalPrice">99</span> ر.س
+                    </strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="enroll-success.html" class="checkout-btn manjam-btn">
+            الاشتراك والدفع
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Checkout -->
+    <!-- Start Footer -->
+    <footer>© منصة منجم 2023. جميع الحقوق محفوظة</footer>
+    <!-- End Footer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.3.3/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
